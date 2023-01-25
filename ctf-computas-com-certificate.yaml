@@ -1,0 +1,8 @@
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  namespace: ctfd
+  name: ctf-computas-com
+spec:
+  domains:
+    - ctf.computas.com
