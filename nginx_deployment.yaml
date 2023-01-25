@@ -15,7 +15,7 @@ data:
         server ctfd:8000;
       }
       server {
-        listen 8080;
+        listen 80;
         client_max_body_size 4G;
         # Handle Server Sent Events for Notifications
         location /events {
